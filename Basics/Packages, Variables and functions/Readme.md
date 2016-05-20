@@ -134,7 +134,8 @@ Try printing needInt(Big) too.
 
 (An int can store at maximum a 64-bit integer, and sometimes less.)
 
-```go run numeric-constants.go
+```
+go run numeric-constants.go
 21
 0.2
 1.2676506002282295e+29
