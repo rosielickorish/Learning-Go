@@ -86,3 +86,13 @@ Hint: to declare and initialize a floating point value, give it floating point s
 z := float64(1)
 z := 1.0
 ```
+
+## Switch
+You probably knew what switch was going to look like.
+
+A case body breaks automatically, unless it ends with a fallthrough statement.
+
+```
+> go run switch.go
+Go runs on OS X.
+```
