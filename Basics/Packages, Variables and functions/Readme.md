@@ -49,7 +49,8 @@ complex64 complex128
 
 The example shows variables of several types, and also that variable declarations may be factored into blocks, as with import statements.
 
-```go run basic-types.go
+```
+go run basic-types.go
 bool(false)
 uint64(18446744073709551615)
 complex128((2+3i))
@@ -63,7 +64,8 @@ The zero value is:
     0 for numeric types,
     false for the boolean type, and
      (the empty string) for strings.
-```$go run zero.go
+```
+$go run zero.go
 0 0 false ""
 ```
 ##Type conversions
@@ -83,7 +85,8 @@ f := float64(i)
 u := uint(f)
 
 Unlike in C, in Go assignment between items of different type requires an explicit conversion. Try removing the float64 or uint conversions in the example and see what happens.
-```go run type-conversion.go
+```
+go run type-conversion.go
 3 4 5
 ```
 ##Type inference
@@ -102,7 +105,8 @@ f := 3.142        // float64
 g := 0.867 + 0.5i // complex128
 
 Try changing the initial value of v in the example code and observe how its type is affected.
-```go run type-inference.go
+```
+go run type-inference.go
 v is of type float64
 w is of type int
 ```
@@ -114,7 +118,8 @@ Constants can be character, string, boolean, or numeric values.
 
 Constants cannot be declared using the := syntax.
 
-```go run constants.go
+```
+go run constants.go
 Hello 世界
 Happy 3.14 Day
 Go rules? true
